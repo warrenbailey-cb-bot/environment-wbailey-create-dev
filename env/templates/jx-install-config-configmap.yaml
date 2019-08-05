@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQPDfJiBSuscSs2C20OfOrWzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQxNjIyZDMyZC01Y2Y5LTRmMTYtYjExOC1iNjY5Y2Q0YmIzOTAw
+    HhcNMTkwODA1MTQwMDE0WhcNMjQwODAzMTUwMDE0WjAvMS0wKwYDVQQDEyQxNjIy
+    ZDMyZC01Y2Y5LTRmMTYtYjExOC1iNjY5Y2Q0YmIzOTAwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDAAYoBfYu2/sf2TRYzdYrf8OJp8bYbvY6zH4Hv0Rog
+    Dv05BV7qBM4aI8GLmMgH7RhDUjLt54CoZTSOMn93W2FqNXGYz+AfA10sPkgTaJbi
+    LPS8b10N1pOtRnFxZvbfhvWliCWgGT/zXb+WUhFxu5JxxVHrmqqWTlukyzKRFnu9
+    +ZvmlCyeXkZxfBz30P9lxO3x3MKaZd1Q9PgFrnKoIm1TbfpdWRRz4gFkyk9aDUeJ
+    PUQFDzIWanFBNkPny6L006/M9m+Gyvb5KKg5JR2wE0ZaVAVQFLO11l1t9Ut95qFi
+    jRVT/m5aQ5vCwpZrRdf50/SG6gSTtuSu7XBIK5dnCthxAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAO
+    QGNh+2RUTyVT54IbbwZ2JFdqA6hYQrFo4QaeUp23qZsZQ7kwvV90bHMMRdedoIHw
+    KUJEzGbDAOrrXKDIvgw8ockBbgaplvs9XgkbQQ5ehd04pooevlPErC0IVTpJWRZH
+    urrJOYlfUmoagWUN7lAzQjH1KDqQWaNVMw2/Q5fKyoUvIyw+rLMFg+lw6ezTI8I/
+    2GIXehTibSuRNcn57t5rRT+siB54JomEsIHmL2qqU5e47ZRF8eENN3RUjO04B42V
+    u6VPdQr7ISwUeQOlbmmqTCdXv3A7ZTYOCaxpbKMII9F79yerqExBgLRlH4h9xhAm
+    QB3XKWyU9iqVuDvZZ8ej
+    -----END CERTIFICATE-----
+  clusterName: wbailey-create
+  jx-install-version: 2.0.551
+  kubeProvider: gke
+  projectID: jx-development
+  region: ""
+  secretsLocation: vault
+  server: https://35.195.6.139
+  systemVaultName: jx-vault-wbailey-creat
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
